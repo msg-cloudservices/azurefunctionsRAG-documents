@@ -2,8 +2,11 @@
 
 ### 1. The Jupyter Notebook contains the code for creating a new index in Azure AI Search. 
 To start, create an .env file containing the secrets for your Azure AI Search Service:
+
 AZURE_SEARCH_SERVICE_ENDPOINT=""
+
 AZURE_SEARCH_INDEX_NAME=""
+
 AZURE_SEARCH_ADMIN_KEY=""
 
 
