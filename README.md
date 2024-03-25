@@ -17,6 +17,6 @@ AZURE_SEARCH_ADMIN_KEY=""
   - The enriched document is loaded as json-file into the second storage account
 
  ### 3. The second function is triggered on upload of the newly processed documents
-  - Subsequently, the documents are uploaded into an already existing index in Azure AI Search.
+  - Subsequently, the documents are uploaded into the previously created index in Azure AI Search.
   - Azure AI search performs the configured search algorithms to retrieve the context matched to the prompt.
   - This context is used to Augment the Generation provided by Azure OpenAI 
